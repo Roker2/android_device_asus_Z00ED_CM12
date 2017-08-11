@@ -37,3 +37,6 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8916
 
 # inherit from the proprietary version
 -include vendor/asus/Z00E/BoardConfigVendor.mk
+
+#Patch by R2
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
